@@ -1,21 +1,21 @@
-@media all and (max-width:1000px) {
+@media (max-width:1000px) {
     .left {
         width:80px;
     }
     .center {
-        width: 60%;
+        width: 45%;
         font-size: 32px;
         margin: 35px 0px 0px 140px;   
-        ;
+        
     }
-    .right a {
-        width: 120px;
+    .right {
+        width: 20%;
     }
 
 
 }
 
-@media all and (max-width:600px) {
+@media (max-width:600px) {
     .left {
         width:80px;
     }
@@ -25,18 +25,23 @@
         margin: 35px 0px 0px 140px;   
         ;
     }
-    .right a {
-        width: 100px;
+    .right {
+        width: 20%;
     }
 
-    .data {
-        flex-direction:column;
+    li {
+        height: 200px;
+        display: block;
+        width: 500px;
+    
+    
     }
-    .data li {
-        margin: auto 0;
-        width:max-content;
-    }
-    .konfirm. aktif .sembuh {
 
+    li h1 {
+        font-size: 12px;
     }
+    .konfirm {
+        width: 700px;
+    }
+
 }
