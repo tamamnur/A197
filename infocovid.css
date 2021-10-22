@@ -52,6 +52,8 @@ header{
 }
 .right a:hover{
     background-color: rgba(255, 255, 255, 0.5);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .title {
@@ -84,45 +86,30 @@ header{
 
 .main {
     width: 100%;
-    background-color: #ecf0f1 ;
+    background-color: #ecf0f1;
+    text-align: center;
 }
 .main h1 {
     text-align: center;
     padding: 25px;
     opacity: .7;
 }
-/*ul{
 
-}
-*/
 li {
     
-    height: 230px;
+    height: 200px;
     margin: 20px 25px 50px 25px;
     padding-left: 10px;
     list-style: none;
     display: inline-block;
     width: 21%;
-
-
 }
-/*@media (max-width:1000px){
-    li {
-        height: 200px;
-        width: 40%;
-    }
-    .dosis1 {
-        width: 990px;
 
-
-    }
-}
-*/
 li h1 {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 li p {
     font-size:30px;
@@ -145,11 +132,11 @@ li p {
 .meninggal {
     background-color: salmon; 
 }
-.dosis1 {
+.vaksin-dosis1 {
     background-color: skyblue;
     width: 46%;
 }
-.dosis2 {
+.vaksin-dosis2 {
     background-color: #f7b731;
     width: 46%
 }
@@ -160,18 +147,19 @@ li p {
 .data li {
     flex-direction:column;
 }
-.menu-wrapper {
+.menus {
     height: 500px;
     padding-bottom: 80px;
     text-align: center;
   }
 
-  .heading {
+  .menu-heading {
+    margin: 20px;
     padding-top: 60px;
     padding-bottom: 30px;
   }
   
-  .heading h2 {
+  .menu-heading h2 {
     font-weight: normal;
   }
   
@@ -183,20 +171,28 @@ li p {
   .menu-icon {
     position: relative;
   }
+  .menu-icon:hover{
+      opacity: .5;
+      font-size: 25px;
+      font-style: bold;
+      
+  }
   
   .menu-icon p {
     position: absolute;
     top: 90px;
     width: 100%;
     color: white;
+    font-size: 18px;
+    font-weight: bold;
   }
   
-  .txt-contents {
+  .menu-txt {
     width: 80%;
     display: inline-block;
     margin-top: 20px;
-    font-size: 15px;
-    color: #b3aeb5;
+    font-size: 18x;
+    color:darkslateblue;
   }
   
   .btn-menu:hover {
@@ -206,16 +202,15 @@ li p {
   footer {
       background-color: #68bbf3;
       color: rgb(17, 16, 16);
-      height: 100px;
+      height: 70px;
       padding: 20px 0 40px 40px;
   }
-  footer p {
+ footer p {
       font-size: 32px;
       vertical-align: middle;
       text-align: center;
-      margin-bottom: 20px;
   }
-  .cright {
+ .cright {
       font-size: 15px;
   }
 
@@ -227,6 +222,7 @@ li p {
 }
 .list li {
       margin: 0;
+      padding-top: 30px;
       
   
 }

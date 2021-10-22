@@ -3,13 +3,28 @@
         width:80px;
     }
     .center {
-        width: 45%;
+        width: 55%;
         font-size: 32px;
         margin: 35px 0px 0px 140px;   
         
     }
     .right {
         width: 20%;
+    }
+    .main h1 {
+        padding: 15px;
+    }
+    li {
+        height: 150px;
+        width: 40%;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+    li h1, li p{
+        font-size: 25px;
+    }
+    .vaksin-dosis1, .vaksin-dosis2 {
+        width: 86%;
     }
 
 
@@ -19,29 +34,40 @@
     .left {
         width:80px;
     }
+
     .center {
-        width: 60%;
+        width: 70%;
         font-size: 32px;
-        margin: 35px 0px 0px 140px;   
-        ;
+        margin: 35px 0px 0px 140px;       
     }
+    
     .right {
         width: 20%;
     }
 
-    li {
-        height: 200px;
-        display: block;
-        width: 500px;
-    
-    
+    .subtitle p {
+        font-size: 16px;
     }
 
     li h1 {
         font-size: 12px;
     }
-    .konfirm {
-        width: 700px;
+
+    .main h1 {
+        padding: 5px;
+    }
+    li {
+        height: 70px;
+        width: 80%;
+        margin-top: 5px;
+        padding-top: 3px;
+    }
+
+    .menu {
+        display: inline-block;
+    }
+    .list {
+        margin: 5px;
     }
 
 }
